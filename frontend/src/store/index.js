@@ -97,7 +97,7 @@ export const useGlobalState = createGlobalState(
         const globalTabplacement = useStorage('globalTabplacement', 'top');
         const useSideMargin = useStorage('useSideMargin', true);
         const useUTCDate = useStorage('useUTCDate', false);
-        const autoRefresh = useStorage('autoRefresh', ture);
+        const autoRefresh = useStorage('autoRefresh', true);
         const configAutoRefreshInterval = useStorage("configAutoRefreshInterval", 5);
         const userOpenSettings = ref({
             fetched: false,
