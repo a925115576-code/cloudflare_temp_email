@@ -549,8 +549,8 @@ export const MESSAGE_REGISTRY = {
       "zh": "状态"
     },
     "title": {
-      "en": "黑马临时邮件",
-      "zh": "黑马临时邮件"
+      "en": "自助取件系统",
+      "zh": "自助取件系统"
     },
     "user": {
       "en": "User",
