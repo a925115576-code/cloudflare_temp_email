@@ -13,7 +13,7 @@ export const useGlobalState = createGlobalState(
         const useSimpleIndex = useLocalStorage('useSimpleIndex', false);
         const openSettings = ref({
             fetched: false,
-            title: '自助取件系统',
+            title: '',
             announcement: '',
             alwaysShowAnnouncement: false,
             prefix: '',
